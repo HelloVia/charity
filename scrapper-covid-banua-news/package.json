@@ -1,0 +1,12 @@
+{
+  "name": "scrapper-covid-banua-news",
+  "version": "0.0.1",
+  "description": "scrapper for covid bamua",
+  "main": "index.js",
+  "author": "aldiskatel@hellovia.id",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  }
+}
