@@ -1,6 +1,8 @@
 // Package Dependencies
 const puppeteer = require('puppeteer');
 
+// Local Dependencies
+const {insertCaseAndCities} = require('./repository')
 // Primitive Constants
 const WEBSITE_TARGET = 'http://covid19.kopibanjarmasin.com/covidkalsel.php'
 
@@ -28,25 +30,22 @@ const setLabelAndValueFromProperties = async ($properties, cb) => {
         cb(label, value)
       }
 }
+const runCron = async() => {
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    let results = {totals:{},cities:[]};
+    console.log("jalan")
+    await page.goto(WEBSITE_TARGET);
+  
+     let $cases = await page.$$(`${$containerSelector} ${$casesSelector}`)
+     let $cities = await page.$$(`${$containerSelector} ${$citySelector}`);
+  
+     await setLabelAndValueFromProperties($cases, (label, value) => results.totals[label] = value)
+     await setLabelAndValueFromProperties($cities, (label, value) => results.cities.push(createCityData(label, value)))
+  
+     insertCaseAndCities(results.totals, results.cities)
+  
+    await browser.close();
+}
 
-
-(async () => {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  let results = {totals:{},cities:[]};
-
-  await page.goto(WEBSITE_TARGET);
-
-   let $cases = await page.$$(`${$containerSelector} ${$casesSelector}`)
-   let $cities = await page.$$(`${$containerSelector} ${$citySelector}`);
-
-   await setLabelAndValueFromProperties($cases, (label, value) => results.totals[label] = value)
-   await setLabelAndValueFromProperties($cities, (label, value) => results.cities.push(createCityData(label, value)))
-
-   console.log("resultnya: ", results)
-
-
-
-
-  await browser.close();
-})();
+module.exports = runCron

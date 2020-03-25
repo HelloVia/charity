@@ -1,0 +1,63 @@
+{
+  "totals": {
+    "Kasus Positif": "1",
+    "Meninggal Dunia": "0",
+    "Sembuh": "0",
+    "Pasien Dalam Pengawasan": "7",
+    "Orang Dalam Pemantauan": "715"
+  },
+  "cities": [
+    {
+      "name": "Banjarmasin",
+      "total": "1"
+    },
+    {
+      "name": "Banjarbaru",
+      "total": "0"
+    },
+    {
+      "name": "Kab Balangan",
+      "total": "0"
+    },
+    {
+      "name": "Kab Banjar",
+      "total": "0"
+    },
+    {
+      "name": "Kab Barito Kuala",
+      "total": "0"
+    },
+    {
+      "name": "Kab HSS",
+      "total": "0"
+    },
+    {
+      "name": "Kab HST",
+      "total": "0"
+    },
+    {
+      "name": "Kab HSU",
+      "total": "0"
+    },
+    {
+      "name": "Kab Kotabaru",
+      "total": "0"
+    },
+    {
+      "name": "Kab Tabalong",
+      "total": "0"
+    },
+    {
+      "name": "Kab Tanah Bumbu",
+      "total": "0"
+    },
+    {
+      "name": "Kab Tanah Laut",
+      "total": "0"
+    },
+    {
+      "name": "Kab Tapin",
+      "total": "0"
+    }
+  ]
+}
