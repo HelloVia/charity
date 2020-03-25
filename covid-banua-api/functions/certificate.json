@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "covid-borneo-api",
+  "private_key_id": "6ba8f03b88703a5838b8b4f5b9462598b1985be6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDNBHE2NOu32xIY\nvw9XYCif1v+9m3ILuuSijf5kPDSX4HMbkD/5yiNFWLmUYgI2tK2gihi/VcwtXoz/\nZKdAHQqN4K+/JxqhQQ3lCpcELtkLAeM22uGSX/olLJnSlTyRTjul7Y7F0kfPE9PU\n4z00jot8GyPtV1ws7xfe5YzS5Uqk/tQJFZEZe4LTXNRd+VJeFd4i7/my97WKVLNo\nuDuh51Yn3IhbhHSPYL8aaaRiS78w/Mqxvm8uqFft3LfvFbGjI1Y4fnms3J3bODyY\n19RMeHKoR1m7FYDsj98HKKPxHT4afM2HVx8eKEcmKA9/kIHexDdReVt7bSu1IfG5\n0qXIhyFlAgMBAAECggEADQcEpvWPFUL+qqNjYcGQEJ4XE0Y60DuAlpgQFkWhcEAt\n2E50KOwluHJGR+3qvEKtYMI9sdTNcVmXezgQYk7Qx59Y05Gey9My2JRxxa0wvgC7\n89WjQqDw0nwRId7j9yDB7LiEcMC8ruV7Oa/J3m/WCwgSIkgBk6+1XtohIW/lVx1m\nuzjeHFgSwXWeF3Pxr4Pl7CLJHGlAPJQp+NpkwaFPuYX/Cr8XadLBhDTT6vF/FJgI\n5Vedsf1TQqmsKarQSe1XroYMi3i/ySZO4X5IbLlDvlYmqr63nqP254bxU1mV9SFo\nnCsETm64Pwer9VEvb6eSPpZASdi4SYXSfMjdxCvq+QKBgQD0aqcf6ufg6hg9IopN\ngKKPlH9FYLJ+/J/xRTfWj9ktrG2dOV2tWAMBPcAl7YR1fTbZBSlYK0pu9EVrbPYQ\nrTDlLXjB88QkjWh1iKIcgyYTneX1tYgdV16gAG/XGzwz5Vv4Bh2zdHoewil67mi9\n9hZQtNxU/QOQxT09Sxik9stUWQKBgQDWu8it/yTYtRmwh3f8TrG7SkeAjdDN9QXl\nDJ28hRKWh4JpZlkIbzBVQzQuHAGWsR4fctE9NlZMMYU3ShZJm56V36y3NFDgAuqI\nLE7yjJxHh/THEQd/mlH5CM+lgBAUJdRkhcfoIO/Lh72002TlITAl8z6oA4RP7hQM\nfc6G6RUD7QKBgHxjXuR+fz3WxTkvv+ULhy+9Kjxbptu7o4Z9bJp0oNl+vFZcoJEc\njoLuM0DaLSRB8kzmNJFbjskC5eVzEZORIKYxyxgh//t+P+A5Bg+uqw0muaafmUMd\neNnC/yghAzWCD5kdO7Zdm9zVgZi/hmzOtbKjKNLT5SGjT7RG6Kbjtr0ZAoGAbDNd\nMIezClte4Xuxcvo4RnZsRxOulkkTulG8HaU0M5N+nBuNW1mjkiL15RIJnuQKmLAj\nTOPXYjdFuBFl35tBsqVtgzciVW5CvXEOKtu9V7HjHnevPpYFHiZZczxvXaeeOTTM\nAWSvT/BLIBWw7l/lwgmqlcCH6Dq/8XdnHMXP6BUCgYAe5+KiKC+rIRkO5sgDJ36A\n4XKh531hCSjiGjfVqT5ENdFxNTHuT8TN4MNH3sI6S7LmeqMjJX/0ku6CSSvgLJeE\nzGh7KbWPgdc3xK5WBMWiPhhyaRAeuwZrcXvECkdGND5ZfDP4h9wzkJ7WKIzCOwCw\nkX7LPZ3eEdLPtkrlZ6Bjag==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-m2tq1@covid-borneo-api.iam.gserviceaccount.com",
+  "client_id": "100613435919180009425",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-m2tq1%40covid-borneo-api.iam.gserviceaccount.com"
+}

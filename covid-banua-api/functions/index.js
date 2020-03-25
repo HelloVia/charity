@@ -4,7 +4,7 @@ const repository = require('./lib/repository')
 const runScrapper = require('./lib/scrapper');
 const cors = require('cors')
 
-require('./lib/cron');
+// require('./lib/cron');
 
 const app = express();
 app.use(cors());
